@@ -18,8 +18,6 @@ export default function LenisProvider({ children }: LenisProviderProps) {
       lerp: 0.075,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
       smoothWheel: true,
-      syncTouch: true,
-      syncTouchLerp: 0.075,
     });
 
     // Animation loop
